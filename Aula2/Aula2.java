@@ -40,7 +40,7 @@ public class Aula2 {
 
             switch (operacao) {
                 case 1:
-                    conta.consultaSaldo(conta);
+                    System.out.println(conta.consultaSaldo(conta));
                     break;
                 case 2:
                     conta.fazPix(conta);
