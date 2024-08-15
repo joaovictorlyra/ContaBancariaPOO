@@ -19,7 +19,7 @@ public class ContaBancaria {
 
 
     public void consultaSaldo(ContaBancaria conta) {
-        return String.format("\n%s tem o saldo de %.2f", conta.getNome, conta.getSaldo);
+        System.out.printf("\n%s tem o saldo de %.2f\n", conta.getNome, conta.getSaldo);
     }
 
     public void fazPix(ContaBancaria conta) {
